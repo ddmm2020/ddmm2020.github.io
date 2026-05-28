@@ -253,6 +253,7 @@ a:hover {
     float: right;
     font-size: 14px;
     color: #586069;
+    clear: right;
 }
 
 .project-extra {
