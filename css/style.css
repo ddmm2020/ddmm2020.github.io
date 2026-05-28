@@ -154,6 +154,29 @@ a:hover {
     color: #0366d6;
 }
 
+.bio-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px;
+}
+
+.bio-list li {
+    padding-left: 16px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.bio-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #2c3e50;
+    border-radius: 50%;
+}
+
 /* ========== Timeline / Education ========== */
 .timeline-list {
     list-style: none;
