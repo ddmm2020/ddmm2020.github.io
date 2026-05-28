@@ -260,11 +260,10 @@ a:hover {
     font-size: 14px;
     color: #586069;
     display: block;
-    margin-bottom: 4px;
 }
 
 .project-desc {
-    margin-top: 6px;
+    margin-top: 0;
     color: #586069;
     font-size: 14px;
     line-height: 1.7;
