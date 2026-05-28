@@ -249,6 +249,13 @@ a:hover {
     font-style: italic;
 }
 
+.project-meta {
+    float: right;
+    font-size: 14px;
+    color: #586069;
+    margin-left: 8px;
+}
+
 .project-desc {
     margin-top: 6px;
     color: #586069;
