@@ -252,8 +252,12 @@ a:hover {
 
 .project-meta {
     float: right;
-    font-size: 14px;
-    color: #586069;
+    font-size: 13px;
+    color: #e65100;
+    background-color: #fff3e0;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
 }
 
 .project-extra {
