@@ -250,8 +250,16 @@ a:hover {
 }
 
 .project-meta {
+    float: right;
     font-size: 14px;
     color: #586069;
+}
+
+.project-extra {
+    font-size: 14px;
+    color: #586069;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .project-desc {
