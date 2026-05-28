@@ -150,6 +150,10 @@ a:hover {
     color: #24292e;
 }
 
+.bio {
+    margin-bottom: 12px;
+}
+
 .bio a {
     color: #0366d6;
 }
