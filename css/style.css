@@ -1,21 +1,22 @@
 .roadmap-timeline {
-    position: relative;
-    padding-left: 20px;
-}
-
-.roadmap-timeline::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 8px;
-    bottom: 8px;
-    width: 2px;
-    background-color: #e1e4e8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
 .roadmap-group {
     position: relative;
-    margin-bottom: 32px;
+    padding-left: 20px;
+}
+
+.roadmap-group::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 8px;
+    width: 2px;
+    background-color: #e1e4e8;
 }
 
 .roadmap-direction {
@@ -23,18 +24,20 @@
     font-size: 15px;
     color: #24292e;
     margin-bottom: 16px;
-    padding-left: 16px;
+    padding-left: 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e1e4e8;
     position: relative;
 }
 
 .roadmap-direction .roadmap-dot {
-    position: absolute;
-    left: -25px;
-    top: 6px;
+    display: inline-block;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     border: 2px solid #fff;
+    margin-right: 6px;
+    vertical-align: middle;
 }
 
 .roadmap-item {
@@ -95,6 +98,13 @@
     padding: 1px 6px;
     border-radius: 3px;
     font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    .roadmap-timeline {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
 }
 
 /* ========== Icons ========== */
